@@ -292,11 +292,20 @@ img {
 	justify-content: center;
 }
 
+.team-soc-link:hover {
+	background: #404BBF;
+}
+
+.team-soc-link:focus {
+	background: #404BBF;
+}
+
 .team-soc-icon {
 	fill: #ffffff;
 	width: 16px;
 	height: 16px;
 }
+
 
 
 .team-container-text {
@@ -333,12 +342,12 @@ img {
 }
 
 .customers-logo {
+	display: flex;
 	width: 100%;
 	padding: 16px 0;
 
 	border: 1px solid #9C9DA6;
 	border-radius: 4px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 }
@@ -346,9 +355,24 @@ img {
 .customers-icon {
 	width: 104px;
 	height: 56px;
+	fill: #8E8F99;
 }
 
+.customers-logo:hover {
+	border: 1px solid #404BBF;
+}
 
+.customers-logo:focus {
+	border: 1px solid #404BBF;
+}
+
+.customers-logo:hover .customers-icon {
+	fill: #404BBF;
+}
+
+.customers-logo:focus .customers-icon {
+	fill: #404BBF;
+}
 
 
 /* footer */
@@ -435,6 +459,16 @@ img {
 	height: 24px;
 }
 
+.footer-soc-link:hover {
+	background-color: #31D0AA;
+}
+
+.footer-soc-link:focus {
+	background-color: #31D0AA;
+}
+
+
+
 
 /* portfolio */
 
@@ -471,6 +505,11 @@ img {
 }
 
 .portfolio-nav-button:hover {
+	background: #404BBF;
+	color: #FFFFFF;
+}
+
+.portfolio-nav-button:focus {
 	background: #404BBF;
 	color: #FFFFFF;
 }
